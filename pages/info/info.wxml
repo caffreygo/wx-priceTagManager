@@ -1,0 +1,20 @@
+<view class="item-wrap">
+  <view class="main-item">
+    <view class="text-wrap">
+      <text class="title">商品编号 :</text>
+      <text class="message">{{item.goodsId}}</text>
+    </view>
+    <view class="text-wrap">
+      <text class="title">商品名称 :</text>
+      <text class="message">{{item.goodsName}}</text>
+    </view>
+    <view class="text-wrap">
+      <text class="title">商品价格 :</text>
+      <text class="message">{{item.goodsPrice}}</text>
+    </view>
+    <view class="text-wrap">
+      <text class="title">商品信息 :</text>
+      <text class="message">{{item.goodsInfo}}</text>
+    </view>
+  </view>
+</view>

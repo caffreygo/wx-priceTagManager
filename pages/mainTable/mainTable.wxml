@@ -1,0 +1,48 @@
+  <view class="action-wrap">
+    <view class="select-wrap" bindtap='onSelectTap'>
+      <text>商品查询 </text>
+      <image class="selectImg" src="/utils/img/select.png" />
+    </view>
+    <view class="select-wrap" bindtap='onAddTap'>
+      <text>商品新增 </text>
+      <image class="selectImg" src="/utils/img/add.png" />
+    </view>
+  </view>
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">商品编号</view>
+    <view class="th">商品名称</view>
+    <view class="th">商品价格</view>
+    <view class="th">操作</view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{code}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.goodsId}}</view>
+      <view class="td">{{item.goodsName}}</view>
+      <view class="td">{{item.goodsPrice}}</view>
+      <view class="td">
+        <image data-id="{{item.goodsId}}" bindtap="onInfoTap" class="rightImg" src="/utils/img/info.png" />
+        <image data-id="{{item.goodsId}}" bindtap="onEditTap" class="rightImg" src="/utils/img/edit.png" />
+        <image  class="rightImg"
+                data-id="{{item.goodsId}}" 
+                bindtap="onDeleteTap"
+                src="/utils/img/shanchu.png" 
+                />
+      </view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.goodsId}}</view>
+      <view class="td">{{item.goodsName}}</view>
+      <view class="td">{{item.goodsPrice}}</view>
+      <view class="td">
+        <image data-id="{{item.goodsId}}" bindtap="onInfoTap" class="rightImg" src="/utils/img/info.png" />
+        <image data-id="{{item.goodsId}}" bindtap="onEditTap" class="rightImg" src="/utils/img/edit.png" />
+        <image  data-id="{{item.goodsId}}" 
+                bindtap="onDeleteTap" 
+                class="rightImg" 
+                src="/utils/img/shanchu.png" 
+                />
+      </view>
+    </view>
+  </block>
+</view>

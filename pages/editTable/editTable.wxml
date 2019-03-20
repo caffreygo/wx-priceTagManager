@@ -1,0 +1,23 @@
+<view class="item-wrap">
+  <view class="main-item">
+    <view class="text-wrap">
+      <text class="title">当前商品编号 :</text>
+      <text style="padding-left:60rpx;color:red;">-{{item.goodsId}}-</text>
+    </view>
+    <view class="text-wrap">
+      <text class="title">商品名称 <text style="color:red;">*</text> :</text>
+      <input bindinput='nameInput' class="editInput" value="{{item.goodsName}}" />
+    </view>
+    <view class="text-wrap">
+      <text class="title">商品价格 <text style="color:red;">*</text> :</text>
+      <input bindinput='priceInput' class="editInput" value="{{item.goodsPrice}}" />
+    </view>
+    <view class="text-wrap">
+      <text class="title">商品信息 :</text>
+      <textarea bindinput='infoInput' maxlength="200" value="{{item.goodsPrice}}"/>
+    </view>
+  </view>
+</view>
+<view class="yellow-button" bindtap='submit'>
+  <text class="button-text">提交</text>
+</view>

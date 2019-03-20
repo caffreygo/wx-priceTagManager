@@ -1,0 +1,17 @@
+{
+  "pages":[
+   
+    "pages/mainTable/mainTable",
+    "pages/login/login",
+    "pages/editTable/editTable",
+    "pages/info/info",
+    "pages/select/select",
+    "pages/add/add"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}
