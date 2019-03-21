@@ -2,11 +2,11 @@
   <view class="main-item">
     <view class="text-wrap">
       <text class="title">商品编号 :</text>
-      <input class="editInput" placeholder='请输入商品编号' />
+      <input bindinput="idInput" class="editInput" placeholder='请输入商品编号' />
     </view>
     <view class="text-wrap">
       <text class="title">商品名称 :</text>
-      <input class="editInput" placeholder='请输入商品名称'/>
+      <input bindinput="nameInput" class="editInput" placeholder='请输入商品名称'/>
     </view>
   </view>
 </view>

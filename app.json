@@ -6,6 +6,7 @@
     "pages/editTable/editTable",
     "pages/info/info",
     "pages/select/select",
+    "pages/selectResult/selectResult",
     "pages/add/add"
   ],
   "window":{
