@@ -1,6 +1,5 @@
 {
   "pages":[
-   
     "pages/mainTable/mainTable",
     "pages/login/login",
     "pages/editTable/editTable",

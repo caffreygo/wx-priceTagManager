@@ -2,19 +2,19 @@
   <view class="main-item">
     <view class="text-wrap">
       <text class="title"><text style="color:red"> * </text>商品编号 :</text>
-      <input class="editInput" value="{{item.id}}" />
+      <input bindinput='idInput' class="editInput" value="{{item.id}}" />
     </view>
     <view class="text-wrap">
       <text class="title"><text style="color:red"> * </text>商品名称 :</text>
-      <input class="editInput" value="{{item.name}}" />
+      <input bindinput='nameInput' class="editInput" value="{{item.name}}" />
     </view>
     <view class="text-wrap">
       <text class="title"><text style="color:red"> * </text>商品价格 :</text>
-      <input class="editInput" value="{{item.price}}" />
+      <input bindinput='priceInput' class="editInput" value="{{item.price}}" />
     </view>
     <view class="text-wrap">
       <text class="title">商品信息 :</text>
-      <textarea maxlength="200" value="{{item.info}}"/>
+      <textarea bindinput='infoInput' maxlength="200" value="{{item.info}}"/>
     </view>
   </view>
 </view>
