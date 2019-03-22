@@ -19,6 +19,11 @@ Page({
       url: '/pages/add/add',
     })
   },
+  loginOutTap: function() {
+    wx.redirectTo({
+      url: '/pages/login/login',
+    })
+  },
   onEditTap: function (e) {
     let id = e.currentTarget.dataset.id
     wx.navigateTo({

@@ -45,28 +45,47 @@
   margin-left: 30rpx;
 }
 
-.td>image{
+.td>image {
   margin-right: 30rpx;
 }
 
-.select-wrap{
+.select-wrap {
   height: 60rpx;
   width: 240rpx;
   border: 1px solid black;
   margin: 10rpx;
 }
-.select-wrap>text{
+
+.select-wrap>text {
   margin-left: 40rpx;
   font-size: 32rpx;
   font-weight: 700;
 }
-.selectImg{
- width: 32rpx;
- height: 32rpx;
- vertical-align: middle;
+
+.selectImg {
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
 }
-.action-wrap{
+
+.action-wrap {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top:30rpx;
+  margin-bottom: 20rpx;
+}
+
+.header {
+  height: 100rpx;
+  background-color: #20a0ff;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.margin-left {
+  margin-left: 20rpx;
 }
