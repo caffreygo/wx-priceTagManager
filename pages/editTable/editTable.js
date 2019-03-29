@@ -29,7 +29,7 @@ Page({
       })
     }else{
       wx.request({
-        url: 'https://www.gocaffrey.xyz/PriceTagManager/servlet/edit',  //服务器地址
+        url: 'http://jerry:8080/PriceTagManager/servlet/edit',  //服务器地址
         data: {
           goodsId:this.data.goodsId,
           goodsName: this.data.goodsName,

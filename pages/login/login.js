@@ -24,7 +24,7 @@ Page({
       })
     }else{
       wx.request({
-        url: 'https://www.gocaffrey.xyz/PriceTagManager/servlet/login',  //服务器地址
+        url: 'https://www.gocaffrey.xyz/PriceTagManager/servlet/Login',  //服务器地址
         data: {
           username: username,
           password: password

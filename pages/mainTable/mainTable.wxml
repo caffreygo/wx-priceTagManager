@@ -53,4 +53,10 @@
       </view>
     </view>
   </block>
+
+</view>
+
+<view class="infoIcon" bindtap='onInfoTap'>
+  <image src="/utils/img/draw.png" class="icon-self"></image>
+  <text class="infoText">个人中心</text>
 </view>
