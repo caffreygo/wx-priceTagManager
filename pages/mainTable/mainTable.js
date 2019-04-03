@@ -9,25 +9,15 @@ Page({
       url: '/pages/info/info?id=' + id,
     })
   },
-  onSelectTap: function() {
-    wx.navigateTo({
-      url: '/pages/select/select',
-    })
-  },
-  onAddTap: function () {
-    wx.navigateTo({
-      url: '/pages/add/add',
-    })
-  },
-  loginOutTap: function() {
-    wx.redirectTo({
-      url: '/pages/login/login',
-    })
-  },
   onEditTap: function (e) {
     let id = e.currentTarget.dataset.id
     wx.navigateTo({
       url: '/pages/editTable/editTable?id='+id,
+    })
+  },
+  onSetTap: function () {
+    wx.navigateTo({
+      url: '/pages/setting/setting',
     })
   },
   // 编辑返回时刷新页面数据

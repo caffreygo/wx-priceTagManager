@@ -1,0 +1,17 @@
+<view class="container">
+  <view bindtap='onSelectTap' class="item">
+    <text class="item-text">商品查询</text>
+    <image class="item-image" src="/utils/img/right.png"></image>
+  </view>
+  <view bindtap='onAddTap' class="item">
+    <text class="item-text">商品新增</text>
+    <image class="item-image" src="/utils/img/right.png"></image>
+  </view>
+</view>
+
+<view class="container">
+  <view class="item" bindtap='loginOutTap'>
+    <text class="login-out-text">退出当前用户</text>
+    <image class="selectImg" src="/utils/img/loginout.png" />
+  </view>
+</view>

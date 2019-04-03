@@ -50,32 +50,12 @@
   margin-right: 30rpx;
 }
 
-.select-wrap {
-  height: 60rpx;
-  width: 240rpx;
-  border: 1px solid black;
-  margin: 10rpx;
-}
-
-.select-wrap>text {
-  margin-left: 40rpx;
-  font-size: 32rpx;
-  font-weight: 700;
-}
-
 .selectImg {
   width: 32rpx;
   height: 32rpx;
   vertical-align: middle;
 }
 
-.action-wrap {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 30rpx;
-  margin-bottom: 20rpx;
-}
 
 .header {
   height: 100rpx;

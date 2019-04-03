@@ -2,20 +2,7 @@
 <text>商品价签管理</text>
  <image class="selectImg margin-left" src="/utils/img/goods.png" />
 </view>
-<view class="action-wrap">
-  <view class="select-wrap" bindtap='onSelectTap'>
-    <text>商品查询 </text>
-    <image class="selectImg" src="/utils/img/select.png" />
-  </view>
-  <view class="select-wrap" bindtap='onAddTap'>
-    <text>商品新增 </text>
-    <image class="selectImg" src="/utils/img/add.png" />
-  </view>
-  <view class="select-wrap" bindtap='loginOutTap'>
-    <text>退出登录 </text>
-    <image class="selectImg" src="/utils/img/loginout.png" />
-  </view>
-</view>
+
 <view class="table">
   <view class="tr bg-w">
     <view class="th">商品编号</view>
@@ -56,7 +43,7 @@
 
 </view>
 
-<view class="infoIcon" bindtap='onInfoTap'>
+<view class="infoIcon" bindtap='onSetTap'>
   <image src="/utils/img/draw.png" class="icon-self"></image>
-  <text class="infoText">个人中心</text>
+  <text class="infoText">操作中心</text>
 </view>

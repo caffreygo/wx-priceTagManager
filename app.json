@@ -1,7 +1,8 @@
 {
   "pages":[
-    "pages/mainTable/mainTable",
     "pages/login/login",
+    "pages/mainTable/mainTable",
+    "pages/setting/setting",
     "pages/editTable/editTable",
     "pages/info/info",
     "pages/select/select",
